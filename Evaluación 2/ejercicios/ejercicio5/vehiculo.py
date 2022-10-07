@@ -8,10 +8,15 @@ class Vehiculo():
         return "Color {}, {} ruedas".format(self.color, self.ruedas)
     
     def catalogar(lista, ruedas = 0):
-        contador = 0
-        for objeto in lista:
-            if objeto.ruedas == ruedas:
-                contador = contador + 1
-                print("Se han encontrado {} vehículos con {} ruedas". format(contador, ruedas))
+        if ruedas is 0:
+            for objeto in lista:
                 print(objeto.__class__.__name__)
                 print(objeto)
+        else:
+            contador = 0
+            for objeto in lista:
+                if objeto.ruedas == ruedas:
+                    contador = contador + 1
+                    print("Se han encontrado {} vehículos con {} ruedas". format(contador, ruedas))
+                    print(objeto.__class__.__name__)
+                    print(objeto)
