@@ -16,7 +16,7 @@ class Producto():
             print("Introdzca datos válidos.")
     
     def __str__(self):
-        return print(self.codigo, self.nombre, self.precio, self.tipo)
-
+        return print(self.codigo, self.nombre, self.precio, self.tipo)ç
+    
 producto = Producto()
 producto.__str__()
