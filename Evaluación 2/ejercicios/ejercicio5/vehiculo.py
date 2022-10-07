@@ -7,8 +7,8 @@ class Vehiculo():
     def __str__(self):
         return "Color {}, {} ruedas".format(self.color, self.ruedas)
     
-    def catalogar(lista):
-        
+    def catalogar(lista, ruedas = 0):
         for objeto in lista:
-            print(objeto.__class__.__name__)
-            print(objeto)
+            if objeto.ruedas == ruedas:
+                print(objeto.__class__.__name__)
+                print(objeto)

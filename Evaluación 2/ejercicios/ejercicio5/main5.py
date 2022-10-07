@@ -11,4 +11,4 @@ m = Motocicleta("verde", 2, "urbana", 170, 1200)
 
 vehiculos = [c, ca, b, m]
 v = Vehiculo
-v.catalogar(vehiculos)
+v.catalogar(vehiculos, 4)
