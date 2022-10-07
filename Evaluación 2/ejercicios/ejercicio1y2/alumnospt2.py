@@ -16,7 +16,7 @@ class Alumnos():
             print("Debe introducir datos válidos.")
     
     def __str__(self):
-        return print(self.nombre, self.nota)
+        return "El alumno {} ha sacado un {}". format(self.nombre, self.nota)
             
     def calificacion(self):
         if self.nota >= 5:
