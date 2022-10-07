@@ -20,11 +20,3 @@ class Alumnos():
             print("El alumno ha aprobado.")
         else:
             print("El alumno ha suspendido")
-
-alumno1 = Alumnos()
-alumno2 = Alumnos()
-alumno3 = Alumnos()
-
-alumno1.calificacion()
-alumno2.calificacion()
-alumno3.calificacion()
