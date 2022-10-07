@@ -6,3 +6,9 @@ class Vehiculo():
 
     def __str__(self):
         return "Color {}, {} ruedas".format(self.color, self.ruedas)
+    
+    def catalogar(lista):
+        
+        for objeto in lista:
+            print(objeto.__class__.__name__)
+            print(objeto)
